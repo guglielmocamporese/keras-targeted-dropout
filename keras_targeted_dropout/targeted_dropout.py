@@ -3,7 +3,7 @@ from .backend import keras
 from .backend import backend as K
 
 
-class TargetedDropout(keras.layers.Wrapper):
+class TargetedDropout(tf.keras.layers.Wrapper):
     """See: https://openreview.net/pdf?id=HkghWScuoQ"""
 
     MODE_UNIT = 'unit'
